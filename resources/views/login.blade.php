@@ -46,7 +46,7 @@
 							<div class="input-group-prepend">
 								<span class="input-group-text"><i class="fas fa-user"></i></span>
 							</div>
-							<input type="text" class="form-control" placeholder="Usuário" name="usuario">
+							<input type="text" class="form-control" placeholder="Email" name="usuario">
 						</div>
 						<div class="input-group form-group">
 							<div class="input-group-prepend">
@@ -79,7 +79,7 @@
 
 	html,
 	body {
-		background-image: url('imgs/background.jpg');
+		background-image: url('imgs/backlogin.jpg');
 		background-size: cover;
 		background-repeat: no-repeat;
 		height: 100%;

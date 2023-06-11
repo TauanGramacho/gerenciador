@@ -116,7 +116,7 @@
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
-
+    
     .logout-button {
         background-color: #ff0000;
         color: #fff;
@@ -148,17 +148,25 @@
     .incluir {
         margin-top: 2.5vh;
     }
-
+/* 
     body {
-        background-image: url('imgs/background.jpg');
+        background-image: url('imgs/backlogin.jpg');
         width: 100vw;
         height: 100vh;
         display: flex;
         align-items: center;
         justify-content: center;
         background-color: rgba(0, 0, 0, 0.1);
-    }
+    } */
 
+    body {
+		background-image: url('imgs/backlogin.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 100%;
+		font-family: 'Numans', sans-serif;
+	}
+    
     button {
         cursor: pointer;
     }

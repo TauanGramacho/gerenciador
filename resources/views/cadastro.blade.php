@@ -244,15 +244,14 @@
     margin-top: 2.5vh;
   }
 
-  body {
-    background-image: url('imgs/background.jpg');
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.1);
-  }
+	body {
+		background-image: url('imgs/backlogin.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 100%;
+		font-family: 'Numans', sans-serif;
+	}
+  
 
   button {
     cursor: pointer;
