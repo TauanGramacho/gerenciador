@@ -393,15 +393,19 @@
   }
 
   .modal {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 40px;
-    background-color: white;
-    border-radius: 10px;
-    width: 50%;
-  }
-
+  position: fixed;
+  top: 30%;
+  left: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background-color: white;
+  border-radius: 30px;
+  width: 40vw;
+  height: 40vh;
+}
   .modal label {
     font-size: 14px;
     width: 100%;
