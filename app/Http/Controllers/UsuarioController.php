@@ -39,11 +39,9 @@ class UsuarioController extends Controller
         return view('login');
     }
 
-    public function destroy(Request $request)
-    {
-        Auth::logout();
-        $request->session()->invalidate();
-        $request->session()->regenerateToken();
-        return redirect(route('inicial'));
+    public function logout(){
+       @session_start();
+       @session_destroy();
+       return view('login');
     }
 }

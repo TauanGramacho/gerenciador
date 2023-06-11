@@ -7,6 +7,7 @@
     <title>Cadastro</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="{{ asset('imgs/favicon.ico') }}" type="image/x-icon">
 </head>
 <div>
 
@@ -27,7 +28,9 @@
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
                     <input id="searchInput" class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-                    <button class="logout-button">Logout</button>
+                    <button class="logout-button">
+                        <a class="button-link" href="{{ route('logout') }}">Logout</a>
+                    </button>
                 </form>
             </div>
         </nav>
@@ -116,7 +119,7 @@
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
-    
+
     .logout-button {
         background-color: #ff0000;
         color: #fff;
@@ -148,7 +151,8 @@
     .incluir {
         margin-top: 2.5vh;
     }
-/* 
+
+    /* 
     body {
         background-image: url('imgs/backlogin.jpg');
         width: 100vw;
@@ -160,13 +164,13 @@
     } */
 
     body {
-		background-image: url('imgs/backlogin.jpg');
-		background-size: cover;
-		background-repeat: no-repeat;
-		height: 100%;
-		font-family: 'Numans', sans-serif;
-	}
-    
+        background-image: url('imgs/backlogin.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        font-family: 'Numans', sans-serif;
+    }
+
     button {
         cursor: pointer;
     }
@@ -381,5 +385,21 @@
 
     td button i:first-child {
         margin-right: 10px;
+    }
+
+    .button-link {
+        color: inherit;
+
+    }
+
+    .button-link {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    .button-link:hover,
+    .button-link:focus {
+        color: white;
+        text-decoration: none;
     }
 </style>

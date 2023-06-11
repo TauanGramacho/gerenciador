@@ -22,6 +22,8 @@
 
 	<!--Custom styles-->
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="icon" href="{{ asset('imgs/favicon.ico') }}" type="image/x-icon">
+
 </head>
 
 <body>
