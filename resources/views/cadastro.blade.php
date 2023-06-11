@@ -18,11 +18,11 @@
       </button>
       <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a href="/inicial" class="nav-link ml-3">Itens disponíveis<span class="sr-only">(página atual)</span></a>
-
-          </li>
           <li class="nav-item">
+            <a href="/inicial" class="nav-link ml-3">Itens disponíveis<span class="sr-only">(página atual)</span></a>
+            
+          </li>
+          <li class="nav-item active">
             <a class="nav-link">Cadastro e edição de produtos</a>
 
           </li>
@@ -251,7 +251,7 @@
 		height: 100%;
 		font-family: 'Numans', sans-serif;
 	}
-  
+
 
   button {
     cursor: pointer;
